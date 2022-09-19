@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "587688525593",
+    "project_id": "gothic-agility-344213",
+    "storage_bucket": "gothic-agility-344213.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587688525593:android:3001df2783c495395c4f88",
+        "android_client_info": {
+          "package_name": "com.company.fooma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587688525593-o9oj7qp1l7jvfqstm8r1hd5g8oe58tr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.fooma",
+            "certificate_hash": "1929c5b76573599a994ee0effa58c84fac691652"
+          }
+        },
+        {
+          "client_id": "587688525593-5ulliqpeaob56diqn74q31ea8cieva0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlgRMrsC_LTR59ltNCmdf6z6VRJVyuH90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587688525593-5ulliqpeaob56diqn74q31ea8cieva0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
