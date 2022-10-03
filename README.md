@@ -1,16 +1,12 @@
-# foodhub
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Food management system FOOMA was born to assist users in monitoring and managing
+food ingredients and allows cooking planning to prepare the best meals. The system includes
+a smart mobile phone management application so that users can create food ingredients, plan
+cooking, save recipes they like or even upload new recipes. image of homemade food in a
+community dedicated to chefs. In addition, there is a web-based tool that allows
+administrators to approve user posts or recipes, and add new food ingredients and popular
+recipes to keep up with the latest trends. fast way. To reduce meal preparation time or avoid
+using expired food ingredients, simply add food ingredients with detailed information and
+plan to cook recipes for future planning on a mobile app.
+- FooMa Food Management Application is suitable for users (especially busy people),
+families who have needs to manage their food, want variety in their daily menu, and suitable
+for those who want to share their results with the community.
