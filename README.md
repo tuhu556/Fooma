@@ -12,6 +12,7 @@ families who have needs to manage their food, want variety in their daily menu, 
 for those who want to share their results with the community.
 
 - Technology: 
+
             + State Managerment: Bloc Pattern
             
             + FireBase (Google Login)
