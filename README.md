@@ -13,9 +13,13 @@ for those who want to share their results with the community.
 
 - Technology: 
             + State Managerment: Bloc Pattern
+            
             + FireBase (Google Login)
+            
             + Cloudinary for uploading images
+            
             + REST APIs
+            
 
 
 ![Picture1](https://user-images.githubusercontent.com/62783903/193606243-36bb2dfb-97d7-4edc-aa1a-aef3b4922199.png)
