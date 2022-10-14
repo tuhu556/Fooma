@@ -10,6 +10,10 @@ plan to cook recipes for future planning on a mobile app.
 - FooMa Food Management Application is suitable for users (especially busy people),
 families who have needs to manage their food, want variety in their daily menu, and suitable
 for those who want to share their results with the community.
+-Technology: 
+            + State Managerment: Bloc Pattern
+            + FireBase (Google Login)
+            + Cloudinary for uploading images
 
 
 ![Picture1](https://user-images.githubusercontent.com/62783903/193606243-36bb2dfb-97d7-4edc-aa1a-aef3b4922199.png)
