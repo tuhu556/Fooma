@@ -15,7 +15,7 @@ for those who want to share their results with the community.
 
             + State Management: Bloc Pattern
             
-            + FireBase (Google Login)
+            + FireBase (Google Login, Authentication)
             
             + Cloudinary for uploading images
             
