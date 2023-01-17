@@ -908,30 +908,31 @@ class _ViewPostViewState extends State<ViewPostView> {
                             suffixIcon: Container(
                               margin: const EdgeInsets.only(right: 8),
                               width: 70.0,
-                              child: FlatButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(30.0),
-                                ),
-                                color: FoodHubColors.colorFC6011,
-                                onPressed: () {
-                                  if (_commentKey.currentState!.validate()) {
-                                    final bloc =
-                                        context.read<InteractPostBloc>();
-                                    bloc.add(CommentPost(widget.post.id,
-                                        _contentController.text));
-                                    setState(() {
-                                      _contentController.clear();
-                                    });
+                              color: Colors.red,
+                              // child: FlatButton(
+                              //   shape: RoundedRectangleBorder(
+                              //     borderRadius: BorderRadius.circular(30.0),
+                              //   ),
+                              //   color: FoodHubColors.colorFC6011,
+                              //   onPressed: () {
+                              //     if (_commentKey.currentState!.validate()) {
+                              //       final bloc =
+                              //           context.read<InteractPostBloc>();
+                              //       bloc.add(CommentPost(widget.post.id,
+                              //           _contentController.text));
+                              //       setState(() {
+                              //         _contentController.clear();
+                              //       });
 
-                                    Helpers.shared.hideKeyboard(context);
-                                  }
-                                },
-                                child: const Icon(
-                                  Icons.send,
-                                  size: 25.0,
-                                  color: Colors.white,
-                                ),
-                              ),
+                              //       Helpers.shared.hideKeyboard(context);
+                              //     }
+                              //   },
+                              //   child: const Icon(
+                              //     Icons.send,
+                              //     size: 25.0,
+                              //     color: Colors.white,
+                              //   ),
+                              // ),
                             ),
                           ),
                         ),

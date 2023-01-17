@@ -831,27 +831,28 @@ class _FavoritePostDetailViewState extends State<FavoritePostDetailView> {
                     suffixIcon: Container(
                       margin: const EdgeInsets.only(right: 8),
                       width: 70.0,
-                      child: FlatButton(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(30.0),
-                        ),
-                        color: FoodHubColors.colorFC6011,
-                        onPressed: () {
-                          final bloc = context.read<InteractPostBloc>();
-                          bloc.add(CommentPost(
-                              postDetail.id, _contentController.text));
-                          setState(() {
-                            _contentController.clear();
-                          });
+                      color: Colors.red,
+                      // child: FlatButton(
+                      //   shape: RoundedRectangleBorder(
+                      //     borderRadius: BorderRadius.circular(30.0),
+                      //   ),
+                      //   color: FoodHubColors.colorFC6011,
+                      //   onPressed: () {
+                      //     final bloc = context.read<InteractPostBloc>();
+                      //     bloc.add(CommentPost(
+                      //         postDetail.id, _contentController.text));
+                      //     setState(() {
+                      //       _contentController.clear();
+                      //     });
 
-                          Helpers.shared.hideKeyboard(context);
-                        },
-                        child: const Icon(
-                          Icons.send,
-                          size: 25.0,
-                          color: Colors.white,
-                        ),
-                      ),
+                      //     Helpers.shared.hideKeyboard(context);
+                      //   },
+                      //   child: const Icon(
+                      //     Icons.send,
+                      //     size: 25.0,
+                      //     color: Colors.white,
+                      //   ),
+                      // ),
                     ),
                   ),
                 ),
